@@ -1,0 +1,937 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <link rel="stylesheet" href="css/style.min.css" />
+  <title>Irwas</title>
+  <script src="https://kit.fontawesome.com/05473ec6e6.js" crossorigin="anonymous"></script>
+  <link href="https://fonts.googleapis.com/css2?family=Open+Sans:wght@400;600;700&display=swap" rel="stylesheet" />
+</head>
+
+<body>
+  <header class="header">
+    <div class="container">
+      <div class="row header-row align-items-center">
+        <div class="col-lg-5 col-md-3 col-sm-12">
+          <div class="header-logo__wrap">
+            <div class="header-logo__img">
+              <picture><source srcset="img/header/logo.webp" type="image/webp"><img src="img/header/logo.png" alt="Logo" /></picture>
+            </div>
+            <p class="header-logo__text m-0">
+              Остекление балконов и лоджий в Москве и Московской области
+            </p>
+          </div>
+        </div>
+        <div class="col-lg-2 col-md-3 col-sm-12">
+          <div class="header-btn-wrap">
+            <button class="header-btn popup_engineer_btn">вызвать<br />замерщика</button>
+          </div>
+        </div>
+        <div class="col-lg-2 col-md-3 col-6">
+          <div class="working-hours">
+            <div class="working-hours-img">
+              <picture><source srcset="img/header/clock.webp" type="image/webp"><img src="img/header/clock.png" alt="" /></picture>
+            </div>
+            <div class="working-hours__title">
+              без выходных<br /><strong>9:00 - 18:00</strong>
+            </div>
+          </div>
+        </div>
+        <div class="col-lg-3 col-md-3 col-6">
+          <div class="header-callback">
+            <a href="#" class="header-callback__phone">
+              <picture><source srcset="img/header/phone.webp" type="image/webp"><img src="img/header/phone.png" alt="" class="header-callback__img" /></picture>
+              +7 (495) 646-61-71
+            </a>
+            <a class="header-callback__link phone_link" href="#">Заказать обратный звонок</a>
+          </div>
+        </div>
+      </div>
+    </div>
+  </header>
+
+  <main class="main">
+    <div class="container h-100">
+      <div class="row h-100 align-items-center">
+        <div class="col-xl-6 col-lg-7 col-12 main-content">
+          <h2 class="main__title">Остекление балконов "под ключ"</h2>
+          <h1 class="main__subtitle">за 12 800 рублей!</h1>
+          <div class="row main-features">
+            <div class="col-md-3 col-6 main-features__item"
+              style="background-image: url(../img/main/icons/quality.png);">
+              <p class="main-features__title">Высокое качество</p>
+            </div>
+            <div class="col-md-3 col-6 main-features__item" style="background-image: url(../img/main/icons/time.png);">
+              <p class="main-features__title">Быстрый монтаж</p>
+            </div>
+            <div class="col-md-3 col-6 main-features__item"
+              style="background-image: url(../img/main/icons/guaranty.png);">
+              <p class="main-features__title">Гарантия 3 года</p>
+            </div>
+            <div class="col-md-3 col-6 main-features__item"
+              style="background-image: url(../img/main/icons/delivery.png);">
+              <p class="main-features__title">Вывоз мусора</p>
+            </div>
+          </div>
+        </div>
+
+        <div class="col-xl-4 offset-xl-2 col-lg-5 offset-lg-0 col-md-8 offset-md-2 main-form-wrap">
+          <form action="" class="contact-form main-form">
+            <div class="contact-form__title">Запишитесь сегодня на</div>
+            <div class="contact-form__subtitle">бесплатный замер</div>
+            <input type="text" class="contact-form__input" placeholder="Введите ваше имя" name="user_name" required autocomplete="off"/>
+            <input type="tel" class="contact-form__input" placeholder="Введите телефон" name="user_phone" required maxlength="19" minlength="19" autocomplete="off"/>
+            <button type="submit" class="contact-form__btn yellow-btn">
+              вызвать замерщика!
+            </button>
+            <small class="contact-form__notice">Ваши данные конфиденциальны</small>            
+            <p class="popup-message"></p>
+          </form>
+        </div>
+      </div>
+    </div>
+  </main>
+
+  <section class="glazing">
+    <div class="container">
+      <div class="section_header">
+        <h2>Остекление балконов и лоджий</h2>
+      </div>
+
+      <!-- Slider -->
+      <div class="row glazing-slider">
+        <div class="col-lg-2 offset-lg-1 col-md-3 col-sm-4 col-5 glazing_block text-center">
+          <picture><source srcset="img/glazing/icons/1.webp" type="image/webp"><img src="img/glazing/icons/1.png" alt="#" /></picture>
+          <a class="tree_link">Деревянное <br />остекление</a>
+        </div>
+        <div class="col-lg-2 col-md-3 col-sm-4 col-5 glazing_block text-center">
+          <picture><source srcset="img/glazing/icons/2.webp" type="image/webp"><img src="img/glazing/icons/2.png" alt="#" /></picture>
+          <a class="aluminum_link">Алюминиевое <br />остекление</a>
+        </div>
+        <div class="col-lg-2 col-md-3 col-sm-4 col-5 glazing_block text-center">
+          <picture><source srcset="img/glazing/icons/3.webp" type="image/webp"><img src="img/glazing/icons/3.png" alt="#" /></picture>
+          <a class="plastic_link">Остекление <br />пластиковыми <br />рамами</a>
+        </div>
+        <div class="col-lg-2 col-md-3 col-sm-4 col-5 glazing_block text-center">
+          <picture><source srcset="img/glazing/icons/4.webp" type="image/webp"><img src="img/glazing/icons/4.png" alt="#" /></picture>
+          <a class="french_link">Французское <br />остекление <br />(панорамное)</a>
+        </div>
+        <div class="col-lg-2 col-md-3 col-sm-4 col-5 glazing_block text-center">
+          <picture><source srcset="img/glazing/icons/5.webp" type="image/webp"><img src="img/glazing/icons/5.png" alt="#" /></picture>
+          <a class="rise_link">Остекление <br />с выносом</a>
+        </div>
+      </div>
+
+      <!-- Tree -->
+      <div class="row tree glazing_content faded">
+        <div class="col-lg-6 p-0">
+          <div class="glazing_cold">
+            <h3>Холодное</h3>
+            <picture><source srcset="img/glazing/img_cold.webp" type="image/webp"><img src="img/glazing/img_cold.png" alt="#" /></picture>
+            <ul>
+              <li>Конструктивная толщина 42-58 мм</li>
+              <li>Остекление: полированное стекло (толщиной 4 - 5 мм)</li>
+              <li>Теплоизоляция: 0,07 м<sup>2</sup> * С/Вт</li>
+              <li>Звукоизоляция: 20-27 дб</li>
+            </ul>
+          </div>
+          <div class="glazing_price">
+            <p>2600 руб.кв.м.<br /><span>под ключ с установкой</span></p>
+            <button class="yellow-btn glazing-price-btn popup_calc_btn">
+              Рассчитать стоимость
+            </button>
+          </div>
+        </div>
+
+        <div class="col-lg-6 p-0">
+          <div class="glazing_warm">
+            <h3>теплое</h3>
+            <picture><source srcset="img/glazing/img_warm.webp" type="image/webp"><img src="img/glazing/img_warm.png" alt="#" /></picture>
+            <ul>
+              <li>Конструктивная толщина профиля: 58-78 м</li>
+              <li>Остекление: однокамерные и двухкамерные стеклопакеты</li>
+              <li>Теплоизоляция: 0,63 - 1,05 м<sup>2</sup> * С/Вт</li>
+              <li>Звукоизоляция: до 5 класса</li>
+            </ul>
+          </div>
+          <div class="glazing_price">
+            <p>4000 руб.кв.м.<br /><span>под ключ с установкой</span></p>
+            <button class="yellow-btn glazing-price-btn popup_calc_btn">
+              Рассчитать стоимость
+            </button>
+          </div>
+        </div>
+      </div>
+      <!-- /Tree -->
+
+      <!-- Aluminum -->
+      <div class="row aluminum glazing_content faded">
+        <div class="col-lg-6 p-0">
+          <div class="glazing_cold">
+            <h3>Холодное</h3>
+            <picture><source srcset="img/glazing/aluminum/cold.webp" type="image/webp"><img src="img/glazing/aluminum/cold.jpg" alt="#" /></picture>
+            <ul>
+              <li>Конструктивная толщина 40-50 мм</li>
+              <li>Остекление: полированное стекло (толщиной 4 - 5 мм)</li>
+              <li>Теплоизоляция: 0,07 м<sup>2</sup> * С/Вт</li>
+              <li>Звукоизоляция: 20-27 дб</li>
+            </ul>
+          </div>
+          <div class="glazing_price">
+            <p>4000 руб.кв.м.<br /><span>под ключ с установкой</span></p>
+            <button class="yellow-btn glazing-price-btn popup_calc_btn">
+              Рассчитать стоимость
+            </button>
+          </div>
+        </div>
+
+        <div class="col-lg-6 p-0">
+          <div class="glazing_warm">
+            <h3>теплое</h3>
+            <picture><source srcset="img/glazing/aluminum/warm.webp" type="image/webp"><img src="img/glazing/aluminum/warm.jpg" alt="#" /></picture>
+            <ul>
+              <li>Конструктивная толщина профиля: 60-68 м</li>
+              <li>Остекление: однокамерные и двухкамерные стеклопакеты</li>
+              <li>Теплоизоляция: 0,63 - 1,05 м<sup>2</sup> * С/Вт</li>
+              <li>Звукоизоляция: до 5 класса</li>
+            </ul>
+          </div>
+          <div class="glazing_price">
+            <p>8000 руб.кв.м.<br /><span>под ключ с установкой</span></p>
+            <button class="yellow-btn glazing-price-btn popup_calc_btn">
+              Рассчитать стоимость
+            </button>
+          </div>
+        </div>
+      </div>
+      <!-- /Aluminum -->
+
+      <!-- Plastic -->
+      <div class="row plastic glazing_content faded">
+        <div class="col-lg-6 offset-lg-3 p-0">
+          <div class="glazing_warm">
+            <h3>теплое</h3>
+            <picture><source srcset="img/glazing/plastic/warm.webp" type="image/webp"><img src="img/glazing/plastic/warm.jpg" alt="#" /></picture>
+            <ul>
+              <li>Конструктивная толщина профиля: 58-70 м</li>
+              <li>Остекление: однокамерные и двухкамерные стеклопакеты</li>
+              <li>Теплоизоляция: 0,63 - 1,05 м<sup>2</sup> * С/Вт</li>
+              <li>Звукоизоляция: до 5 класса</li>
+            </ul>
+          </div>
+          <div class="glazing_price">
+            <p>5500 руб.кв.м.<br /><span>под ключ с установкой</span></p>
+            <button class="yellow-btn glazing-price-btn popup_calc_btn">
+              Рассчитать стоимость
+            </button>
+          </div>
+        </div>
+      </div>
+      <!-- /Plastic -->
+
+      <!-- French -->
+      <div class="row french glazing_content faded">
+        <div class="col-lg-6 p-0">
+          <div class="glazing_cold">
+            <h3>Пластик</h3>
+            <picture><source srcset="img/glazing/french/plastic.webp" type="image/webp"><img src="img/glazing/french/plastic.jpg" alt="#" /></picture>
+            <ul>
+              <li>Конструктивная толщина 58-70 мм</li>
+              <li>Остекление: однокамерные и двухкамерные стеклопакеты</li>
+              <li>Теплоизоляция: 0,63 - 1,05 м<sup>2</sup> * С/Вт</li>
+              <li>Звукоизоляция: до 5 класса</li>
+            </ul>
+          </div>
+          <div class="glazing_price">
+            <p>5500 руб.кв.м.<br /><span>под ключ с установкой</span></p>
+            <button class="yellow-btn glazing-price-btn popup_calc_btn">
+              Рассчитать стоимость
+            </button>
+          </div>
+        </div>
+
+        <div class="col-lg-6 p-0">
+          <div class="glazing_warm">
+            <h3>Алюминий</h3>
+            <picture><source srcset="img/glazing/french/aluminum.webp" type="image/webp"><img src="img/glazing/french/aluminum.jpg" alt="#" /></picture>
+            <ul>
+              <li>Конструктивная толщина профиля: 60-68 мм</li>
+              <li>Остекление: однокамерные и двухкамерные стеклопакеты</li>
+              <li>Теплоизоляция: 0,63 - 1,05 м<sup>2</sup> * С/Вт</li>
+              <li>Звукоизоляция: до 5 класса</li>
+            </ul>
+          </div>
+          <div class="glazing_price">
+            <p>8000 руб.кв.м.<br /><span>под ключ с установкой</span></p>
+            <button class="yellow-btn glazing-price-btn popup_calc_btn">
+              Рассчитать стоимость
+            </button>
+          </div>
+        </div>
+      </div>
+      <!-- /French -->
+
+      <!-- Rise -->
+      <div class="row rise glazing_content faded">
+        <div class="col-lg-6 p-0">
+          <div class="glazing_cold">
+            <h3>Алюминий</h3>
+            <picture><source srcset="img/glazing/rise/aluminum.webp" type="image/webp"><img src="img/glazing/rise/aluminum.jpg" alt="#" /></picture>
+            <ul>
+              <li>Конструктивная толщина 40-50 мм</li>
+              <li>Остекление: полированное стекло (толщиной 4 - 5 мм)</li>
+              <li>Теплоизоляция: 0,07 м<sup>2</sup> * С/Вт</li>
+              <li>Звукоизоляция: 20-27 дб</li>
+            </ul>
+          </div>
+          <div class="glazing_price">
+            <p>4000 руб.кв.м.<br /><span>под ключ с установкой</span></p>
+            <button class="yellow-btn glazing-price-btn popup_calc_btn">
+              Рассчитать стоимость
+            </button>
+          </div>
+        </div>
+
+        <div class="col-lg-6 p-0">
+          <div class="glazing_warm">
+            <h3>Дерево</h3>
+            <picture><source srcset="img/glazing/rise/tree.webp" type="image/webp"><img src="img/glazing/rise/tree.jpg" alt="#" /></picture>
+            <ul>
+              <li>Конструктивная толщина профиля: 40-42 мм</li>
+              <li>Остекление: полированное стекло (толщиной 4 мм)</li>
+              <li>Теплоизоляция: 0,07 м<sup>2</sup> * С/Вт</li>
+              <li>Звукоизоляция: 20-27 дб</li>
+            </ul>
+          </div>
+          <div class="glazing_price">
+            <p>8000 руб.кв.м.<br /><span>под ключ с установкой</span></p>
+            <button class="yellow-btn glazing-price-btn popup_calc_btn">
+              Рассчитать стоимость
+            </button>
+          </div>
+        </div>
+      </div>
+      <!-- /Rise -->
+    </div>
+  </section>
+
+  <section class="decoration">
+    <div class="container">
+      <div class="section_header decoration_header">
+        <h2>Закажите отделку балкона со скидкой 60%!</h2>
+      </div>
+
+      <!-- Slider -->
+      <div class="row decoration_slider">
+        <div class="col-xl-3 p-0 decoration_item">
+          <div class="internal_link no_click after_click"><a>Внутренняя отделка</a></div>
+        </div>
+        <div class="col-xl-3 p-0 decoration_item">
+          <div class="external_link no_click"><a>Внешняя отделка</a></div>
+        </div>
+        <div class="col-xl-3 p-0 decoration_item">
+          <div class="rising_link no_click"><a>Выносное остекление</a></div>
+        </div>
+        <div class="col-xl-3 p-0 decoration_item">
+          <div class="roof_link no_click"><a>Крыша на балкон</a></div>
+        </div>
+      </div>
+
+      <div class="decoration_items">
+        <!-- internal -->
+        <div class="row internal decoration_content faded">
+          <div class="col-xl-3 col-lg-4 col-12 p-0">
+            <div class="decoration_img">
+              <picture><source srcset="img/decoration/decoration_img.webp" type="image/webp"><img src="img/decoration/decoration_img.png" alt=""></picture>
+            </div>
+          </div>
+          <!-- Material -->
+          <div class="col-xl-5 col-lg-8 col-12 material-block">
+            <div class="row decoration_content_material-wrap">
+              <div class="col-md-4 col-6">
+                <div class="decoration_content_material">
+                  <picture><source srcset="img/decoration/material/lining.webp" type="image/webp"><img src="img/decoration/material/lining.png" alt="#"></picture>
+                  <h3>Вагонка</h3>
+                  <p>600 руб. кв.м.<span>с материалом</span></p>
+                </div>
+              </div>
+              <div class="col-md-4 col-6">
+                <div class="decoration_content_material">
+                  <picture><source srcset="img/decoration/material/plastic.webp" type="image/webp"><img src="img/decoration/material/plastic.png" alt="#"></picture>
+                  <h3>Пластиковая вагонка</h3>
+                  <p>750 руб. кв.м.<span>с материалом</span></p>
+                </div>
+              </div>
+              <div class="col-md-4 col-6">
+                <div class="decoration_content_material">
+                  <picture><source srcset="img/decoration/material/pvh.webp" type="image/webp"><img src="img/decoration/material/pvh.png" alt="#"></picture>
+                  <h3>ПВХ-панели</h3>
+                  <p>800 руб. кв.м.<span>с материалом</span></p>
+                </div>
+              </div>
+              <div class="col-md-4 col-6">
+                <div class="decoration_content_material">
+                  <picture><source srcset="img/decoration/material/laminate.webp" type="image/webp"><img src="img/decoration/material/laminate.png" alt="#"></picture>
+                  <h3>Настил пола <br>из ламината</h3>
+                  <p>1250 руб. кв.м.<span>с материалом</span></p>
+                </div>
+              </div>
+              <div class="col-md-4 col-6">
+                <div class="decoration_content_material">
+                  <picture><source srcset="img/decoration/material/tree.webp" type="image/webp"><img src="img/decoration/material/tree.png" alt="#"></picture>
+                  <h3>Настил пола <br>из дерева</h3>
+                  <p>1650 руб. кв.м.<span>с материалом</span></p>
+                </div>
+              </div>
+            </div>
+          </div>
+          <div class="col-xl-4 offset-xl-0 col-lg-6 offset-lg-3 decoration-form-wrap">
+            <form action="" class="contact-form decoration-form">
+              <div class="contact-form__title">Запишитесь сегодня на</div>
+              <div class="contact-form__subtitle">бесплатный замер</div>
+              <input type="text" class="contact-form__input" placeholder="Введите ваше имя" name="user_name"
+                required autocomplete="off"/>
+              <input type="tel" class="contact-form__input" placeholder="Введите телефон" name="user_phone" required maxlength="19" minlength="19" autocomplete="off"/>
+              <button type="submit" class="contact-form__btn yellow-btn">
+                вызвать замерщика!
+              </button>
+              <small class="contact-form__notice">Ваши данные конфиденциальны</small>
+              <p class="popup-message"></p>              
+            </form>
+          </div>
+        </div><!-- /internal -->
+
+        <!-- external -->
+        <div class="row external decoration_content faded">
+          <div class="col-xl-3 col-lg-4 col-12 p-0">
+            <div class="decoration_img">
+              <picture><source srcset="img/decoration/2/decoration2_img.webp" type="image/webp"><img src="img/decoration/2/decoration2_img.png" alt=""></picture>
+            </div>
+          </div>
+          <!-- Material -->
+          <div class="col-xl-5 col-lg-8 col-12 material-block">
+            <div class="row decoration_content_material-wrap">
+              <div class="col-md-4 col-6">
+                <div class="decoration_content_material">
+                  <picture><source srcset="img/decoration/2/metal.webp" type="image/webp"><img src="img/decoration/2/metal.png" alt="#"></picture>
+                  <h3>Металлический <br>сайдинг</h3>
+                  <p>600 руб. кв.м.<span>с материалом</span></p>
+                </div>
+              </div>
+              <div class="col-md-4 col-6">
+                <div class="decoration_content_material text-center">
+                  <picture><source srcset="img/decoration/2/plastic.webp" type="image/webp"><img src="img/decoration/2/plastic.png" alt="#"></picture>
+                  <h3>Пластиковая <br>вагонка</h3>
+                  <p>750 руб. кв.м.<span>с материалом</span></p>
+                </div>
+              </div>
+              <div class="col-md-4 col-6">
+                <div class="decoration_content_material text-center">
+                  <picture><source srcset="img/decoration/2/profnastil.webp" type="image/webp"><img src="img/decoration/2/profnastil.png" alt="#"></picture>
+                  <h3>Профнастил</h3>
+                  <p>800 руб. кв.м.<span>с материалом</span></p>
+                </div>
+              </div>
+              <div class="col-md-4 col-6">
+                <div class="decoration_content_material text-center">
+                  <picture><source srcset="img/decoration/2/tree.webp" type="image/webp"><img src="img/decoration/2/tree.png" alt="#"></picture>
+                  <h3>Деревянная <br>вагонка</h3>
+                  <p>1250 руб. кв.м.<span>с материалом</span></p>
+                </div>
+              </div>
+              <div class="col-md-4 col-6">
+                <div class="decoration_content_material text-center">
+                  <picture><source srcset="img/decoration/2/vinil.webp" type="image/webp"><img src="img/decoration/2/vinil.png" alt="#"></picture>
+                  <h3>Виниловый <br>сайдинг</h3>
+                  <p>1650 руб. кв.м.<span>с материалом</span></p>
+                </div>
+              </div>
+            </div>
+          </div>
+          <div class="col-xl-4 offset-xl-0 col-lg-6 offset-lg-3 decoration-form-wrap">
+            <form action="" class="contact-form decoration-form">
+              <div class="contact-form__title">Запишитесь сегодня на</div>
+              <div class="contact-form__subtitle">бесплатный замер</div>
+              <input type="text" class="contact-form__input" placeholder="Введите ваше имя" name="user_name"
+                required />
+              <input type="tel" class="contact-form__input" placeholder="Введите телефон" name="user_phone" required maxlength="19" minlength="19" autocomplete="off"/>
+              <button type="submit" class="contact-form__btn yellow-btn">
+                вызвать замерщика!
+              </button>
+              <small class="contact-form__notice">Ваши данные конфиденциальны</small>
+              <p class="popup-message"></p>
+            </form>
+          </div>
+        </div><!-- /external -->
+
+        <!-- rising -->
+        <div class="row rising decoration_content faded">
+          <div class="col-xl-3 col-lg-4 col-12 p-0">
+            <div class="decoration_img">
+              <picture><source srcset="img/decoration/3/decoration3_img.webp" type="image/webp"><img src="img/decoration/3/decoration3_img.jpg" alt=""></picture>
+            </div>
+          </div>
+          <!-- Material -->
+          <div class="col-xl-5 col-lg-8 col-12 material-block">
+            <div class="row decoration_content_material-wrap">
+              <div class="col-md-4 col-6">
+                <div class="decoration_content_material text-center">
+                  <picture><source srcset="img/decoration/3/aluminum.webp" type="image/webp"><img src="img/decoration/3/aluminum.png" alt="#"></picture>
+                  <h3>Алюминиевый <br>профиль</h3>
+                  <p>600 руб. кв.м.<span>с материалом</span></p>
+                </div>
+              </div>
+              <div class="col-md-4 col-6">
+                <div class="decoration_content_material text-center">
+                  <picture><source srcset="img/decoration/3/bezram.webp" type="image/webp"><img src="img/decoration/3/bezram.png" alt="#"></picture>
+                  <h3>Безрамное <br>остекление</h3>
+                  <p>750 руб. кв.м.<span>с материалом</span></p>
+                </div>
+              </div>
+              <div class="col-md-4 col-6">
+                <div class="decoration_content_material text-center">
+                  <picture><source srcset="img/decoration/3/pvh.webp" type="image/webp"><img src="img/decoration/3/pvh.png" alt="#"></picture>
+                  <h3>ПВХ <br>профиль</h3>
+                  <p>800 руб. кв.м.<span>с материалом</span></p>
+                </div>
+              </div>
+              <div class="col-md-4 col-6">
+                <div class="decoration_content_material text-center">
+                  <picture><source srcset="img/decoration/3/tree.webp" type="image/webp"><img src="img/decoration/3/tree.png" alt="#"></picture>
+                  <h3>Деревянный <br>профиль</h3>
+                  <p>1250 руб. кв.м.<span>с материалом</span></p>
+                </div>
+              </div>
+            </div>
+          </div>
+          <div class="col-xl-4 offset-xl-0 col-lg-6 offset-lg-3 decoration-form-wrap">
+            <form action="" class="contact-form decoration-form">
+              <div class="contact-form__title">Запишитесь сегодня на</div>
+              <div class="contact-form__subtitle">бесплатный замер</div>
+              <input type="text" class="contact-form__input" placeholder="Введите ваше имя" name="user_name"
+                required />
+              <input type="tel" class="contact-form__input" placeholder="Введите телефон" name="user_phone" required maxlength="19" minlength="19" autocomplete="off"/>
+              <button type="submit" class="contact-form__btn yellow-btn">
+                вызвать замерщика!
+              </button>
+              <small class="contact-form__notice">Ваши данные конфиденциальны</small>
+              <p class="popup-message"></p>
+            </form>
+          </div>
+        </div><!-- /rising -->
+
+        <!-- roof -->
+        <div class="row roof decoration_content faded">
+          <div class="col-xl-3 col-lg-4 col-12 p-0">
+            <div class="decoration_img">
+              <picture><source srcset="img/decoration/4/decoration4_img.webp" type="image/webp"><img src="img/decoration/4/decoration4_img.png" alt=""></picture>
+            </div>
+          </div>
+          <!-- Material -->
+          <div class="col-xl-5 col-lg-8 col-12 material-block">
+            <div class="row decoration_content_material-wrap">
+              <div class="col-md-4 col-6">
+                <div class="decoration_content_material text-center">
+                  <picture><source srcset="img/decoration/4/gofrolist.webp" type="image/webp"><img src="img/decoration/4/gofrolist.png" alt="#"></picture>
+                  <h3>Гофролист</h3>
+                  <p>600 руб. кв.м.<span>с материалом</span></p>
+                </div>
+              </div>
+              <div class="col-md-4 col-6">
+                <div class="decoration_content_material text-center">
+                  <picture><source srcset="img/decoration/4/metallocherepitsa.webp" type="image/webp"><img src="img/decoration/4/metallocherepitsa.png" alt="#"></picture>
+                  <h3>Металлочерепица</h3>
+                  <p>750 руб. кв.м.<span>с материалом</span></p>
+                </div>
+              </div>
+              <div class="col-md-4 col-6">
+                <div class="decoration_content_material text-center">
+                  <picture><source srcset="img/decoration/4/ondulin.webp" type="image/webp"><img src="img/decoration/4/ondulin.png" alt="#"></picture>
+                  <h3>Ондулин</h3>
+                  <p>800 руб. кв.м.<span>с материалом</span></p>
+                </div>
+              </div>
+              <div class="col-md-4 col-6">
+                <div class="decoration_content_material text-center">
+                  <picture><source srcset="img/decoration/4/polikarbonat.webp" type="image/webp"><img src="img/decoration/4/polikarbonat.png" alt="#"></picture>
+                  <h3>Поликарбонат</h3>
+                  <p>1250 руб. кв.м.<span>с материалом</span></p>
+                </div>
+              </div>
+              <div class="col-md-4 col-6">
+                <div class="decoration_content_material text-center">
+                  <picture><source srcset="img/decoration/4/steklopaket.webp" type="image/webp"><img src="img/decoration/4/steklopaket.png" alt="#"></picture>
+                  <h3>Стеклопакет</h3>
+                  <p>1650 руб. кв.м.<span>с материалом</span></p>
+                </div>
+              </div>
+            </div>
+          </div>
+          <div class="col-xl-4 offset-xl-0 col-lg-6 offset-lg-3 decoration-form-wrap">
+            <form action="" class="contact-form decoration-form">
+              <div class="contact-form__title">Запишитесь сегодня на</div>
+              <div class="contact-form__subtitle">бесплатный замер</div>
+              <input type="text" class="contact-form__input" placeholder="Введите ваше имя" name="user_name"
+                required />
+              <input type="tel" class="contact-form__input" placeholder="Введите телефон" name="user_phone" required maxlength="19" minlength="19" autocomplete="off"/>
+              <button type="submit" class="contact-form__btn yellow-btn">
+                вызвать замерщика!
+              </button>
+              <small class="contact-form__notice">Ваши данные конфиденциальны</small>
+              <p class="popup-message"></p>
+            </form>
+          </div>
+        </div><!-- /roof -->
+
+
+      </div> <!-- decoration_content -->
+
+    </div>
+  </section>
+
+  <section class="works">
+    <div class="container">
+      <div class="section_header works_header">
+        <h2>Наши работы</h2>
+      </div>
+      <div class="row">
+        <div class="col-xl-3 col-lg-4 col-sm-6">
+          <div class="works-img__warp">
+            <a href="img/our_works/big_img/1.png"><picture><source srcset="img/our_works/big_img/1.webp" type="image/webp"><img class="preview photo-1" src="img/our_works/big_img/1.png" alt=""></picture></a>
+          </div>
+        </div>
+        <div class="col-xl-3 col-lg-4 col-sm-6">
+          <div class="works-img__warp">
+            <a href="img/our_works/big_img/2.png"><picture><source srcset="img/our_works/big_img/2.webp" type="image/webp"><img class="preview photo-2" src="img/our_works/big_img/2.png" alt=""></picture></a>
+          </div>
+        </div>
+        <div class="col-xl-3 col-lg-4 col-sm-6">
+          <div class="works-img__warp">
+            <a href="img/our_works/big_img/3.png"><picture><source srcset="img/our_works/big_img/3.webp" type="image/webp"><img class="preview photo-3" src="img/our_works/big_img/3.png" alt=""></picture></a>
+          </div>
+        </div>
+        <div class="col-xl-3 col-lg-4 col-sm-6">
+          <div class="works-img__warp">
+            <a href="img/our_works/big_img/4.png"><picture><source srcset="img/our_works/big_img/4.webp" type="image/webp"><img class="preview photo-4" src="img/our_works/big_img/4.png" alt=""></picture></a>
+          </div>
+        </div>
+        <div class="col-xl-3 col-lg-4 col-sm-6">
+          <div class="works-img__warp">
+            <a href="img/our_works/big_img/5.png"><picture><source srcset="img/our_works/big_img/5.webp" type="image/webp"><img class="preview photo-5" src="img/our_works/big_img/5.png" alt=""></picture></a>
+          </div>
+        </div>
+        <div class="col-xl-3 col-lg-4 col-sm-6">
+          <div class="works-img__warp">
+            <a href="img/our_works/big_img/6.png"><picture><source srcset="img/our_works/big_img/6.webp" type="image/webp"><img class="preview photo-6" src="img/our_works/big_img/6.png" alt=""></picture></a>
+          </div>
+        </div>
+        <div class="col-xl-3 col-lg-4 col-sm-6">
+          <div class="works-img__warp">
+            <a href="img/our_works/big_img/7.png"><picture><source srcset="img/our_works/big_img/7.webp" type="image/webp"><img class="preview photo-7" src="img/our_works/big_img/7.png" alt=""></picture></a>
+          </div>
+        </div>
+        <div class="col-xl-3 col-lg-4 col-sm-6">
+          <div class="works-img__warp">
+            <a href="img/our_works/big_img/8.png"><picture><source srcset="img/our_works/big_img/8.webp" type="image/webp"><img class="preview photo-8" src="img/our_works/big_img/8.png" alt=""></picture></a>
+          </div>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <section class="guarantees">
+    <div class="container">
+      <div class="section_header guarantees_header">
+        <h2>Мы гарантируем вам</h2>
+      </div>
+      <div class="row guarantees-content">
+        <div class="col-lg-4 col-6 guarantees-item">
+          <picture><source srcset="img/guarantees/1.webp" type="image/webp"><img class="guarantees-item__img" src="img/guarantees/1.png" alt=""></picture>
+          <h3 class="guarantees-item__title">Высокое качество</h3>
+        </div>
+        <div class="col-lg-4 col-6 guarantees-item">
+          <picture><source srcset="img/guarantees/2.webp" type="image/webp"><img class="guarantees-item__img" src="img/guarantees/2.png" alt=""></picture>
+          <h3 class="guarantees-item__title">Выполнение работ <br>под ключ</h3>
+        </div>
+        <div class="col-lg-4 col-6 guarantees-item">
+          <picture><source srcset="img/guarantees/3.webp" type="image/webp"><img class="guarantees-item__img" src="img/guarantees/3.png" alt=""></picture>
+          <h3 class="guarantees-item__title">Монтаж в короткие <br>сроки</h3>
+        </div>
+        <div class="col-lg-4 col-6 guarantees-item">
+          <picture><source srcset="img/guarantees/4.webp" type="image/webp"><img class="guarantees-item__img" src="img/guarantees/4.png" alt=""></picture>
+          <h3 class="guarantees-item__title">Цены<br> от производителя</h3>
+        </div>
+        <div class="col-lg-4 col-6 guarantees-item">
+          <picture><source srcset="img/guarantees/5.webp" type="image/webp"><img class="guarantees-item__img" src="img/guarantees/5.png" alt=""></picture>
+          <h3 class="guarantees-item__title">Бесплатный замер <br>и консультацию</h3>
+        </div>
+        <div class="col-lg-4 col-6 guarantees-item">
+          <picture><source srcset="img/guarantees/6.webp" type="image/webp"><img class="guarantees-item__img" src="img/guarantees/6.png" alt=""></picture>
+          <h3 class="guarantees-item__title">Тепло и уют <br>на балконе</h3>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <section class="payment">
+    <div class="container">
+      <div class="payment_header">
+        <h2>Вы можете оплатить наши услуги:</h2>
+      </div>
+      <div class="row">
+        <div class="col-md-4 payment-item">
+          <picture><source srcset="img/payment/wallet.webp" type="image/webp"><img src="img/payment/wallet.png" alt=""></picture>
+          <p class="payment-item__title">Наличными</p>
+        </div>
+        <div class="col-md-4 payment-item">
+          <picture><source srcset="img/payment/credit-card.webp" type="image/webp"><img src="img/payment/credit-card.png" alt=""></picture>
+          <p class="payment-item__title">Банковской картой</p>
+        </div>
+        <div class="col-md-4 payment-item">
+          <picture><source srcset="img/payment/museum.webp" type="image/webp"><img src="img/payment/museum.png" alt=""></picture>
+          <p class="payment-item__title">Безналичный расчет</p>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <section class="sale">
+    <div class="container">
+      <div class="row sale__content">
+        <div class="col-xl-6 col-lg-6">
+          <h2 class="sale__title">Акция - 60%</h2>
+          <p class="sale__subtitle">Успей сэкономить на остеклении! Только до 15 июля!</p>
+          <div class="timer">
+            <p class="timer__title">До завершения акции:</p>
+            <div class="timer__display">
+              <div class="timer-item timer__days"><span class="timer__value" id="days">08</span><span class="timer__desc">Дней</span></div>
+              <div class="timer-item timer__hours"><span class="timer__value" id="hours">18</span><span class="timer__desc">Часов</span></div>
+              <div class="timer-item timer__minutes"><span class="timer__value" id="minutes">33</span><span class="timer__desc">Минут</span></div>
+              <div class="timer-item timer__seconds"><span class="timer__value" id="seconds">44</span><span class="timer__desc">Секунд</span></div>
+            </div>
+          </div>
+        </div>
+        <div class="col-xl-4 offset-xl-2 col-lg-5 offset-lg-1 col-md-8 offset-md-2">
+          <form action="" class="contact-form decoration-form">
+            <div class="contact-form__title">Запишитесь сегодня на</div>
+            <div class="contact-form__subtitle">бесплатный замер</div>
+            <input type="text" class="contact-form__input" placeholder="Введите ваше имя" name="user_name"
+              required autocomplete="off"/>
+            <input type="tel" class="contact-form__input" placeholder="Введите телефон" name="user_phone" required maxlength="19" minlength="19" autocomplete="off"/>
+            <button type="submit" class="contact-form__btn yellow-btn">
+              вызвать замерщика!
+            </button>
+            <small class="contact-form__notice">Ваши данные конфиденциальны</small>
+            <p class="popup-message"></p>
+          </form>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <section class="contacts">
+    <div class="container">
+      <div class="section_header contacts_header">
+        <h2>Как нас найти</h2>
+      </div>
+      <div class="row">
+        <div class="col-lg-6">
+          <iframe class="map" src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d2235.2618174047184!2d37.602909316080805!3d55.92749898597191!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x46b53a0ac32d875f%3A0xe1064c1e68c2b74a!2z0JLRi9GB0YLQsNCy0L7Rh9C90LDRjywgNTMsINCS0LXRiNC60LgsINCc0L7RgdC60L7QstGB0LrQsNGPINC-0LHQuy4sIDEyNzU0Mw!5e0!3m2!1sru!2sru!4v1510535523155" width="550" height="450" style="border:0" allowfullscreen></iframe>
+        </div>
+        <div class="col-lg-6">
+          <div class="contacts__info">
+            <div class="contacts__title">Юридический адрес:</div>
+            <div class="contacts__subtitle">ООО «ИРВАС», 127411, г.Москва, Дмитровское шоссе, д.125, корпус 1</div>
+            <div class="contacts__title">Фактический адрес:</div>
+            <div class="contacts__subtitle">ООО «ИРВАС», 141031, МО, Мытищинский р-он, п.Вешки,Выставочная,д.53</div>
+            <div class="contacts__title">Телефон:</div>
+            <div class="contacts__subtitle">+7 (495) 646-61- 71 <span>(многоканальный)</span></div>
+            <div class="contacts__title">E-mail:</div>
+            <div class="contacts__subtitle"><a href="#">info@irvasokna.ru</a></div>
+            <div class="contacts__title">Режим работы:</div>
+            <div class="contacts__subtitle">9:00 - 18:00 без выходных</div>
+          </div>          
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <section class="questions">
+    <div class="container">
+      <div class="questions__contant">
+        <p class="questions__title">Остались вопросы?</p>
+        <a class="questions__link phone_link" href="#">Спросите у нашего специалиста!</a>
+      </div>      
+    </div>
+  </section>
+
+  <footer class="footer">
+    <div class="container">
+      <div class="row">
+        <div class="order-md-1 col-md-4 order-3 footer__copyright"></div>
+        <div class="order-md-2 col-md-4 order-2 footer__logo">
+          <picture><source srcset="img/header/logo.webp" type="image/webp"><img src="img/header/logo.png" alt=""></picture>
+        </div>
+        <div class="order-md-3 col-md-4 order-1 footer__contacts">
+          <a class="footer__phone" href="#">+7 (495) 646-61-71</a>
+          <a class="footer__email" href="#">info@irvasokna.ru</a>
+        </div>
+      </div>
+    </div>
+  </footer>
+
+
+  <!-- Modals -->
+    <!-- Request a call -->
+    <div class="popup" data-modal>
+      <div class="popup_dialog">
+          <div class="popup_content text-center">
+            <button type="button" class="popup_close"><i class="far fa-window-close"></i></button>
+              <div class="popup_form">
+                <form action="" class="contact-form">
+                  <div class="contact-form__text">Введите ваши данные<br/>и нажмите заказать звонок</div>
+                  <input type="text" class="contact-form__input" placeholder="Введите ваше имя" name="user_name" required autocomplete="off"/>
+                  <input type="tel" class="contact-form__input" placeholder="Введите телефон" name="user_phone" required maxlength="19" minlength="19" autocomplete="off"/>
+                  <button type="submit" class="contact-form__btn yellow-btn">Заказать звонок</button>
+                  <small class="contact-form__notice">Перезвоним в течение 10 минут</small>
+                  <p class="popup-message"></p>
+                </form>
+              </div>
+          </div>
+      </div>
+  </div>
+
+  <!-- Request an engineer -->
+  <div class="popup_engineer" data-modal>
+      <div class="popup_dialog">
+          <div class="popup_content text-center">
+              <button type="button" class="popup_close"><i class="far fa-window-close"></i></button>
+              <div class="popup_form">
+                <form action="" class="contact-form">
+                  <div class="contact-form__title">Запишитесь сегодня на</div>
+                  <div class="contact-form__subtitle">бесплатный замер</div>
+                  <input type="text" class="contact-form__input" placeholder="Введите ваше имя" name="user_name" required autocomplete="off"/>
+                  <input type="tel" class="contact-form__input" placeholder="Введите телефон" name="user_phone" required maxlength="19" minlength="19" autocomplete="off"/>
+                  <button type="submit" class="contact-form__btn yellow-btn">
+                    вызвать замерщика!
+                  </button>
+                  <small class="contact-form__notice">Ваши данные конфиденциальны</small>
+                  <p class="popup-message"></p>
+                </form>
+              </div>
+          </div>
+      </div>
+  </div>
+
+  <!-- Calculator -->
+ <div class="popup_calc" data-modal>
+      <div class="popup_dialog">
+          <div class="popup_calc_content text-center">
+              <button type="button" class="popup_calc_close"><i class="far fa-window-close"></i></button>
+               <h2>Калькулятор</h2>
+              <h3>Выберите форму балкона <br>и укажите размеры</h3>
+              <div class="balcon_icons">
+                  <span class="balcon_icons_img do_image_more">
+                    <picture><source srcset="img/modal_calc/balkon/ba_01.webp" type="image/webp"><img src="img/modal_calc/balkon/ba_01.png" alt="Тип1"></picture></span>
+                  <span class="balcon_icons_img">
+                    <picture><source srcset="img/modal_calc/balkon/ba_02.webp" type="image/webp"><img src="img/modal_calc/balkon/ba_02.png" alt="Тип2"></picture></span>
+                  <span class="balcon_icons_img">
+                    <picture><source srcset="img/modal_calc/balkon/ba_03.webp" type="image/webp"><img src="img/modal_calc/balkon/ba_03.png" alt="Тип3"></picture></span>
+                  <span class="balcon_icons_img"> 
+                    <picture><source srcset="img/modal_calc/balkon/ba_04.webp" type="image/webp"><img src="img/modal_calc/balkon/ba_04.png" alt="Тип4"></picture></span>
+                </div>
+                 <div class="big_img text-center">
+                   <picture><source srcset="img/modal_calc/balkon/type1.webp" type="image/webp"><img src="img/modal_calc/balkon/type1.png" alt="Тип1"></picture>
+                   <picture><source srcset="img/modal_calc/balkon/type2.webp" type="image/webp"><img src="img/modal_calc/balkon/type2.png" alt="Тип2"></picture>
+                   <picture><source srcset="img/modal_calc/balkon/type3.webp" type="image/webp"><img src="img/modal_calc/balkon/type3.png" alt="Тип3"></picture>
+                   <picture><source srcset="img/modal_calc/balkon/type4.webp" type="image/webp"><img src="img/modal_calc/balkon/type4.png" alt="Тип4"></picture>
+                 </div>
+              <input class="form-control" id="width" type="text" placeholder="Ширина" required>
+              <label for="width">мм</label>
+              <div class="multiplication"><strong>&times;</strong></div>
+              <input class="form-control" id="height" type="text" placeholder="Высота" required>
+              <label for="height">мм</label>
+              <button class="button popup_calc_button">Далее</button>
+              <div class="popup-message"></div>
+          </div>
+      </div>
+  </div> 
+
+ <div class="popup_calc_profile" data-modal>
+      <div class="popup_dialog">
+          <div class="popup_calc_profile_content text-center">
+              <button type="button" class="popup_calc_profile_close"><i class="far fa-window-close"></i></button>
+               <h2>Калькулятор</h2>
+               <h3>Выберите тип остекления <br>и его профиль</h3>
+               <select class="form-control" name="view" id="view_type">
+                 <option value="tree" selected>Деревянное остекление</option>
+                 <option value="aluminum">Алюминиевое остекление</option>
+                 <option value="plastic">Остекление пластиковыми рамами</option>
+                 <option value="french">Панорамное остекление</option>
+                 <option value="overhang">Остекление с выносом</option>
+               </select>
+               <picture><source srcset="img/modal_calc/icon_cold.webp" type="image/webp"><img src="img/modal_calc/icon_cold.png" alt=""></picture>
+               <label>
+                   <input class="checkbox" type="checkbox" name="checkbox-test">
+                   <span class="checkbox-custom" id="cold"></span>
+                   <span class="label">Холодное</span>
+               </label>
+               <picture><source srcset="img/modal_calc/icon_warm.webp" type="image/webp"><img src="img/modal_calc/icon_warm.png" alt=""></picture>
+               <label>
+                   <input class="checkbox" type="checkbox" name="checkbox-test">
+                   <span class="checkbox-custom" id="warm"></span>
+                   <span class="label">Теплое</span>
+               </label>
+
+               <button class="button popup_calc_profile_button">Далее</button>
+               <div class="popup-message"></div>
+          </div>
+      </div>
+  </div> 
+
+  <div class="popup_calc_end" data-modal>
+      <div class="popup_dialog">
+          <div class="popup_content text-center">
+              <button type="button" class="popup_calc_end_close"><i class="far fa-window-close"></i></button>
+              <div class="popup_form">
+                <form action="" class="contact-form" data-calc="end">
+                  <div class="contact-form__subtitle">Спасибо за обращение!<br/>Оставте свои данные</div>
+                  <input type="text" class="contact-form__input" placeholder="Введите ваше имя" name="user_name" required autocomplete="off"/>
+                  <input type="tel" class="contact-form__input" placeholder="Введите телефон" name="user_phone" required maxlength="19" minlength="19" autocomplete="off"/>
+                  <button type="submit" class="button contact-form__btn yellow-btn">
+                    вызвать замерщика!
+                  </button>
+                  <small class="contact-form__notice">Ваши данные конфиденциальны</small>
+                  <p class="popup-message"></p>
+                </form>
+              </div>
+          </div>
+      </div>
+  </div>
+
+  <div class="popup_images">
+    <div class="popup_images-wrap">
+      <div class="popup_images-arrow previous_arrow">
+        <i class="far fa-arrow-alt-circle-left"></i>         
+      </div>
+      <div class="popup_images-img"></div>
+      <div class="popup_images-arrow next_arrow">
+        <i class="far fa-arrow-alt-circle-right"></i>       
+      </div>
+    </div>    
+  </div>
+
+
+
+  <!-- Bootstrap -->
+  <link rel="stylesheet" href="css/bootstrap.css" />
+  <!-- JQuery -->
+  <script src="https://code.jquery.com/jquery-3.5.1.min.js"
+    integrity="sha256-9/aliU8dGd2tb6OSsuzixeV4y/faTqgFtohetphbbj0=" crossorigin="anonymous"></script>
+
+  <script src="js/main.js"></script>
+</body>
+
+</html>
